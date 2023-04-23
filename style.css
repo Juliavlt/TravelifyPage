@@ -1,0 +1,446 @@
+@font-face{
+    font-family: 'segoueui'; /*ui*/
+    src: url(fonts/segoeui/segoeui.ttf);
+}
+
+@font-face{
+    font-family: 'segoueuib';
+    src: url(fonts/segoeui/segoeuib.ttf); /*negrito*/
+}
+
+@font-face{
+    font-family: 'segoueuil';
+    src: url(fonts/segoeui/segoeuil.ttf); /*light*/
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'segoueuil';
+}
+
+/*------------------------------------------ NAV ---------------------------------------------------------------------------*/
+nav{
+    padding: 10px;
+    background-color: rgb(249, 249, 249);
+    margin: auto; 
+    display: block;
+    font-family: segoueuil;
+}
+
+.nav-logo{
+    display: inline-block;
+    padding: 10px;
+    margin-left:60px;
+    
+}
+
+.nav-ul{
+    margin-right: 60px;
+    margin-top: 15px;
+    display: inline-block;
+    float: right;
+}
+
+.nav-ul a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.nav-ul li{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    
+}
+
+.nav-li4{
+    background-color: rgb(0, 0, 99);
+}
+
+
+
+/*---------------------------------------------------CABEÇALHO-------------------------------------------------------------------*/
+
+.header{
+    background-image: url(IMAGENS/finalImage.jpg);
+    height: 450px;
+    display: block;    
+}
+
+.header h1{
+    margin-left:60px; 
+    padding-top: 50px;
+    font-size: 80px;
+    color: rgb(248, 249, 250);
+    font-family: 'segoueuilb';
+}
+
+.header h2{
+    margin-left: 60px;
+    font-size: 25px;
+    color: aliceblue;
+    padding-top: 10px;
+    font-family: 'segoueuil';
+}
+
+.header a{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(42, 136, 225);
+    text-decoration: none;
+    color:white ;
+    margin-left: 60px;
+    margin-top: 8%;
+    font-size: 35px;
+    font-family: 'segoueui';
+    
+}
+
+.header img{
+    display: inline-block;
+    margin-left: 80%;
+    margin-top: 2%;
+}
+
+
+
+/*box*/
+
+.box-01{
+    width: 33%;
+    
+}
+
+.main{
+    text-align: center;
+}
+
+/*----------------------------------------------- primeiro paragrafo -------------------------------------------------- */
+.main-p1{
+    margin: 60px;
+    color: rgb(143, 143, 143);
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+/*------------------------------------------------- SECTION 01 ----------------------------------------------*/
+
+/*titulo*/
+.section-01 h2{
+    margin-top: 100px;
+    font-size: 40px;
+    color: rgb(42, 136, 225);
+    font-family: 'segoueuib';
+}
+/*paragrafo 1*/
+.sec-01-p1{
+    margin-top: 50px;
+    color: rgb(143, 143, 143);
+    margin-bottom: 20px;
+    font-family: 'segoueuil';
+
+}
+
+/* DIVS */
+.section-01 div{
+    display: inline-block;
+    width: 42%;
+    background-color: rgb(107, 107, 173);
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    padding: 5px;
+   
+}
+.section-01 img{
+    float: left;
+    padding: 20px;
+}
+.section-01 div h3{
+    float: left;
+    font-family: 'segoueuib';
+    color: white;
+
+    
+}
+.section-01 div p{
+    display: inline;
+    font-family: 'segoueuil';
+    color: white;
+    float:auto;
+  
+
+}
+
+
+/*cor das div*/
+#sec-01-box01{
+    background-color:rgb(56, 56, 250);
+}
+#sec-01-box02{
+    background-color:rgb(47, 29, 131);
+  
+}
+#sec-01-box03{
+    background-color:rgb(0, 97, 40);
+ 
+}
+#sec-01-box04{
+    background-color:rgb(253, 60, 38);
+ 
+}
+#sec-01-box05{
+    background-color:rgb(111, 8, 106);
+}
+#sec-01-box06{
+    background-color:rgb(52, 167, 220);
+}
+#sec-01-box07{
+    background-color:rgb(28, 31, 182);
+}
+#sec-01-box08{
+    background-color:rgb(78, 67, 226);
+}
+#sec-01-box09{
+    background-color:rgb(49, 131, 186);
+}
+#sec-01-box10{
+    background-color:rgb(71, 11, 155);
+}
+
+/*---------------------------------------------------------- SECTION 2 ----------------------------------------------*/
+.section-02{
+    margin:60px;
+}
+.section-02 h2{
+    margin-top: 100px;
+    font-size: 40px;
+    color: rgb(42, 136, 225);
+    margin-bottom: 25px;
+    font-family: 'segoueuib';
+}
+
+/*texto paragrafol*/
+.section-02 p{
+    font-size: 16px;
+    color: rgb(143, 143, 143);
+    font-family: 'segoueuil';
+ }
+
+/*divs*/
+.section-02 div{
+    display: inline-block;
+    width: 20%;
+    padding: 5px;
+}
+.sec-02-div1{
+    margin-left: 60px;
+    float: left;
+}
+
+.sec-02-div2{
+    float: center;
+}
+
+.sec-02-div3{
+    margin-right: 60px;
+    float: right;
+}
+
+/*titulo das divs*/
+.section-02 h3{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'segoueuib';
+    
+}
+.sec-02-div3-h1{
+    color:  rgb(119, 196, 5);
+    font-family: 'segoueuib';
+}
+.sec-02-div3-h2{
+    color:  rgb(36, 137, 232);
+    font-family: 'segoueuib';
+}
+.sec-02-div3-h3{
+    color:  rgb(220, 144, 31);
+    font-family: 'segoueuib';
+}
+
+/*botões*/
+.section-02 a{
+    margin-top: 25px;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+}
+.sec-02-div3-a1{
+    border: 2px solid rgb(119, 196, 5);
+    color:  rgb(119, 196, 5);
+}
+.sec-02-div3-a2{
+    border: 2px solid rgb(36, 137, 232);
+    color:  rgb(36, 137, 232);
+}
+.sec-02-div3-a3{
+    border: 2px solid rgb(220, 144, 31);;
+    color:   rgb(220, 144, 31);
+}
+
+/* imagens*/
+.section-02 img{
+    padding: 20px;
+}
+.sec-02-div3-img1{
+    background-color: rgb(119, 196, 5);
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+.sec-02-div3-img2{
+    background-color: rgb(36, 137, 232);
+    width: 80px;
+    height: 90px;
+    border-radius: 100%;
+}
+.sec-02-div3-img3{
+    background-color: rgb(220, 144, 31);
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+
+/*--------------------------------------------------SECTION 3------------------------------------------------------------------*/
+
+.section-03{
+    margin: 60px;
+}
+
+.section-03 h2{
+    margin-top: 100px;
+    font-size: 40px;
+    color: rgb(42, 136, 225);
+    margin-bottom: 25px;
+    font-family: 'segoueuib';
+}
+
+/*divs*/
+.sec-03-divs div{
+    border: 3px solid rgb(165, 165, 165);
+    display: inline-block;
+    width: 25%;
+    height: 20%;
+    color: rgb(165, 165, 165);
+    padding: 20px;
+}
+.section-03 div{
+    border: 2px solid rgb(165, 165, 165);
+    float: left;
+    box-sizing: border-box;
+}
+
+/*titulo das divs*/
+.section-03 h3{
+    color: rgb(213, 63, 63);
+    
+}
+
+/*paragrafo divs*/
+.section-03 p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'segoueuil';
+}
+
+
+/*------------------------------------------------------- div com imagem-----------------------------------------------*/ 
+
+.div-img-txt{
+    margin-top: 300px;
+    display: block;
+    background-image: url(IMAGENS/Viagem123.jpeg);
+    height: 300px;
+    border: 1px solid white;
+    opacity: 0.9;
+}
+
+.div-img-txt p{
+    font-family: 'segoueuil';
+    font-size: 20px;
+    color: rgb(12, 6, 6);
+    text-align: center;
+    margin-top:130px;
+    margin: 60px;
+    margin-top: 130px;
+}
+
+
+/*--------------------------------------------------------FORMULARIO--------------------------------------------*/
+.main-p2{
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(143, 143, 143);
+    margin-bottom: 60px;
+    margin: 60px;
+}
+
+.form-cadastro h2{
+    padding: 15px;
+}
+.form-cadastro{
+   font-size: 12px;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    color: rgb(163, 162, 162);
+}
+
+.form-cadastro input {
+   background-color: rgb(248, 253, 255);
+   width: 85%;
+   height: 40px;
+   margin-bottom: 30px;
+   border-style: none;
+   text-indent: 10px;
+   
+}
+
+.form-cadastro label{
+    margin-top: 40px;
+    text-align: left;
+    
+}
+
+.form-cadastro button{
+    background-color: rgb(84, 141, 248);
+    color: white;
+    font-size: 20px;
+    width: 85%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-style: none;
+    text-indent: 10px;
+    }
+
+
+/*----------------------------------------------------------------FOOTER-------------------------------------------------*/
+
+footer img{
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: 60px;
+
+}
+
+footer p{
+    margin: 20px;
+    text-align: center;
+    color: rgb(221, 221, 221);
+}
